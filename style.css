@@ -1,0 +1,92 @@
+body {
+    background-color: #51567A;
+    padding: 0;
+    margin: 0;
+}
+nav {
+    padding: 10px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.432);
+}
+nav > a {
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    text-decoration: none;
+}
+nav > a:hover {
+    color: black;
+}
+
+#imagemFirst {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.inputs {
+    width: 300px;
+}
+
+article, #pnlCadastrado{
+    background-color: #7B83BA;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    box-shadow: 1px 2px 20px #063d1e88;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+form > h1{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+form > input {
+    align-items: right;
+}
+form > p{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10vh;
+}
+
+.buttons {
+    width: 15vh;
+    height: 2.5vh;
+    border: solid 1px black;
+    border-radius: 10px;
+    color: blue;
+    background-color: white;
+}
+
+.buttons:hover {
+    background-color: #7b83ba;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #404461;
+    height: 30px;
+    color: white;
+    margin-top: 15px;
+    height: 40px;
+}
+footer  p{
+    text-align: center;
+}
+
+#pnlCadastrado{
+    opacity: 0;
+    left: 75vh;
+    top: 45vh;
+    position:absolute;
+
+}

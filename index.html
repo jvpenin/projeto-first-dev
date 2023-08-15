@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova C. Técnico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Configurações</a>
+        <a href="#">Suporte</a>
+    </nav>
+    <picture>
+        <img src="imagens/first-horz-rgb.png" alt="Logo First" id="imagemFirst">
+    </picture>
+    <main>
+        <article id="pnlCadastro">
+            <form>
+                <h1 id="titulo">Cadastro de Equipe</h1>
+                
+                <p>
+                    Nome da equipe: 
+                    <input type="text" id="inNome" class="inputs">
+                </p>
+                <p>
+                    Nº Equipe:
+                    <input type="number" id="inNumero" class="inputs">
+                </p>
+                <p>
+                    Data fundação:
+                    <input type="date" id="inDataFundacao" >
+                </p>
+                <p>
+                    Unidade SESI:
+                    <input type="text" id="inUnidade" class="inputs">
+                </p>
+                <p>
+                    E-mail:
+                    <input type="text" id="inEmail" class="inputs">
+                </p>
+                <p>
+                    Técnico (Nome completo):
+                    <input type="text" id="inTecnico" class="inputs">
+                </p>
+                <p>
+                    Participaram de quantas competições?
+                    <input type="number" id="inCompeticoes" class="inputs">
+                </p>
+                <p>
+                    Senha:
+                    <input type="password" id="inSenha">
+                </p>
+                <p> Confirme a senha:
+                    <input type="password" id="inConfSenha">
+                </p>
+                <p>
+                    <button type="button" id="btnCadastrar" class="buttons">Cadastrar</button>
+                    <button type="reset" class="buttons">Limpar </button>
+                </p>
+            </form>
+        </article>
+        <article id="pnlCadastrado">
+            <form>
+                <p id="outNomeNumero"></p>
+                <p id="outDFundacaoCategoria"></p>
+                <p>Informações de Contato<br></p>
+                <p id="outTecnico"></p>
+                <p id="outEmail"></p>
+            </form>
+            
+        </article>
+    </main>
+    <footer><p>João Victor Penin Caldeira</p></footer>
+    <script src="script.js"></script>
+</body>
+</html>
